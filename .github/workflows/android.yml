@@ -28,9 +28,6 @@ jobs:
       - name: Prepare Android project
         run: |
           mkdir -p app/src/main/java/com/ezatullah/runneradventure
-          cp settings.gradle .
-          cp build.gradle .
-          cp gradle.properties .
           cp app_build.gradle app/build.gradle
           cp AndroidManifest.xml app/src/main/AndroidManifest.xml
           cp MainActivity.java app/src/main/java/com/ezatullah/runneradventure/MainActivity.java
